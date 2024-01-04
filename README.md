@@ -32,7 +32,9 @@ Users should be able to:
 ### Screenshot
 
 - Desktop Screenshot
-  ![](./screenshot.jpg)
+  ![Screenshot 2024-01-03 at 8 18 25 PM](https://github.com/chiragglallwani/faq-accordion-main/assets/57692146/87647892-181a-4ff1-927e-4d292d5acaf5)
+- Mobile ScreenShot
+  ![Screenshot 2024-01-03 at 8 17 07 PM](https://github.com/chiragglallwani/faq-accordion-main/assets/57692146/3d4f37ed-46f8-40dc-a245-d10f69d9b55a)
 
 Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
 
@@ -44,8 +46,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Add live site URL here](https://faq-accordion-main-iota.vercel.app/)
 
 ## My process
 
