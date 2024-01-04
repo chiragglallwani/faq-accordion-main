@@ -38,21 +38,21 @@ body {
 .bg-img-pattern {
   top: 0;
   /* Location of the image */
-  background-image: url("./assets/images/background-pattern-desktop.svg");
+  background-image: url("./assets/images/background-pattern-mobile.svg");
 
   /* Background image is centered vertically and horizontally at all times */
-  background-position: center center;
+  background-position: bottom bottom;
   /* Background image doesn’t tile */
   background-attachment: fixed;
   /* This is what makes the background image rescale based on the container’s size */
   z-index: -1;
   position: absolute;
-  height: 200px;
+  height: 232px;
   width: 100%;
 }
 
 .card-accordian {
-  margin-top: 100px;
+  margin-top: 135px;
   display: flex;
   flex-direction: column;
   justify-content: start;
@@ -131,34 +131,40 @@ body {
 
 @media only screen and (min-width: 376px) {
   .bg-img-pattern {
-    top: 0;
     /* Location of the image */
     background-image: url("./assets/images/background-pattern-desktop.svg");
 
     /* Background image is centered vertically and horizontally at all times */
-    background-position: center center;
+    background-position: bottom top;
     /* Background image doesn’t tile */
     background-attachment: fixed;
     /* This is what makes the background image rescale based on the container’s size */
     z-index: -1;
     position: absolute;
-    height: 200px;
-    width: 100%;
+    height: 320px;
   }
   .card-accordian {
-    margin-top: 60px;
+    margin-top: 180px;
     width: 92%;
     max-width: 600px;
   }
 
   .card-header-img {
     object-fit: cover;
-    height: 40px;
+    height: 45px;
   }
 
   .card-heading {
     margin-left: 25px;
-    font-size: 40px;
+    font-size: 45px;
     margin-bottom: 20px;
+  }
+
+  .card-body {
+    margin-top: -20px;
+  }
+
+  .panel {
+    font-size: 16px;
   }
 }
