@@ -1,0 +1,164 @@
+@font-face {
+  font-family: "Worksans-Italic";
+  src: url("./assets/fonts/WorkSans-Italic-VariableFont_wght.ttf");
+}
+
+@font-face {
+  font-family: "Worksans";
+  src: url("./assets/fonts/WorkSans-VariableFont_wght.ttf");
+}
+
+@font-face {
+  font-family: "Worksans-Bold";
+  src: url("./assets/fonts/static/WorkSans-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Worksans-Regular";
+  src: url("./assets/fonts/static/WorkSans-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Worksans-semiBold";
+  src: url("./assets/fonts/static/WorkSans-SemiBold.ttf");
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 !important;
+  background-color: hsl(275, 100%, 97%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bg-img-pattern {
+  top: 0;
+  /* Location of the image */
+  background-image: url("./assets/images/background-pattern-desktop.svg");
+
+  /* Background image is centered vertically and horizontally at all times */
+  background-position: center center;
+  /* Background image doesn’t tile */
+  background-attachment: fixed;
+  /* This is what makes the background image rescale based on the container’s size */
+  z-index: -1;
+  position: absolute;
+  height: 200px;
+  width: 100%;
+}
+
+.card-accordian {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  max-width: 92%;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 25px;
+  padding: 0 30px 30px 30px;
+}
+
+.card-header {
+  display: flex;
+  align-items: center;
+  justify-content: baseline;
+  width: fit-content;
+}
+
+.card-header-img {
+  object-fit: cover;
+  height: 25px;
+  margin-top: 20px;
+}
+
+.card-heading {
+  margin-left: 15px;
+  margin-bottom: 10px;
+  font-family: "Worksans-Bold", Arial, sans-serif;
+  font-size: 30px;
+}
+
+.topic {
+  margin: 1rem 0;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid hsla(292, 16%, 49%, 0.1);
+}
+
+.accordion {
+  cursor: pointer;
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  text-align: left;
+  outline: none;
+  padding: 0;
+  font-size: 18px;
+  transition: 0.4s;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Worksans-semiBold", Arial, sans-serif;
+}
+
+.accordion:after {
+  content: url("./assets/images/icon-plus.svg"); /* Unicode character for "plus" sign (+) */
+  font-size: 13px;
+  color: #777;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: url("./assets/images/icon-minus.svg"); /* Unicode character for "minus" sign (-) */
+}
+
+.panel {
+  margin: 0;
+  background-color: transparent;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  font-family: "Worksans", Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: hsl(292, 16%, 49%);
+}
+
+@media only screen and (min-width: 376px) {
+  .bg-img-pattern {
+    top: 0;
+    /* Location of the image */
+    background-image: url("./assets/images/background-pattern-desktop.svg");
+
+    /* Background image is centered vertically and horizontally at all times */
+    background-position: center center;
+    /* Background image doesn’t tile */
+    background-attachment: fixed;
+    /* This is what makes the background image rescale based on the container’s size */
+    z-index: -1;
+    position: absolute;
+    height: 200px;
+    width: 100%;
+  }
+  .card-accordian {
+    margin-top: 60px;
+    width: 92%;
+    max-width: 600px;
+  }
+
+  .card-header-img {
+    object-fit: cover;
+    height: 40px;
+  }
+
+  .card-heading {
+    margin-left: 25px;
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+}
