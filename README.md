@@ -31,8 +31,9 @@ Users should be able to:
 
 ### Screenshot
 
+
 - Desktop Screenshot
-  ![Screenshot 2024-01-03 at 8 18 25 PM](https://github.com/chiragglallwani/faq-accordion-main/assets/57692146/87647892-181a-4ff1-927e-4d292d5acaf5)
+  ![Screenshot 2024-01-04 at 12 32 05 PM](https://github.com/chiragglallwani/faq-accordion-main/assets/57692146/d95e56a4-3dfd-475b-939b-0370710585f1)
 - Mobile ScreenShot
   ![Screenshot 2024-01-03 at 8 17 07 PM](https://github.com/chiragglallwani/faq-accordion-main/assets/57692146/3d4f37ed-46f8-40dc-a245-d10f69d9b55a)
 
